@@ -31,7 +31,7 @@ T getNthLargest(int n, const ArrayList<T> & list)
 	// Create temporary list with list that was passed in.
 	OrderedList<T> temp(list);
 
-	return	temp.get(temp.size()-n);
+	return temp.get(temp.size()-n);
 }
 
 
